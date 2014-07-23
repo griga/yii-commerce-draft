@@ -1,0 +1,9 @@
+.idea/
+data/
+protected/config/local.php
+protected/runtime/*
+!protected/runtime/.gitkeep
+assets/*
+!assets/.gitkeep
+.sass-cache
+/images

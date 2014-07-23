@@ -1,0 +1,23 @@
+RewriteEngine on
+AddDefaultCharset utf-8
+
+# Make the backend accessible via url: http://site/admin
+RewriteRule ^admin backend.php
+
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteBase /
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+
+
+#uploading
+php_flag short_open_tag On
+
+php_value max_execution_time 300

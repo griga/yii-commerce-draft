@@ -1,0 +1,34 @@
+[submodule "themes/common"]
+	path = themes/common
+	url = https://github.com/griga/yii-common-theme-files.git
+[submodule "themes/commerce"]
+	path = themes/commerce
+	url = https://github.com/griga/yii-commerce-theme.git
+
+[submodule "protected/modules/upload"]
+	path = protected/modules/upload
+	url = https://github.com/griga/yii-module-upload.git
+[submodule "protected/modules/catalog"]
+	path = protected/modules/catalog
+	url = https://github.com/griga/yii-module-catalog.git
+[submodule "protected/modules/translation"]
+	path = protected/modules/translation
+	url = https://github.com/griga/yii-module-translation
+[submodule "protected/modules/sys"]
+	path = protected/modules/sys
+	url = https://github.com/griga/yii-module-sys
+[submodule "protected/modules/seo"]
+	path = protected/modules/seo
+	url = https://github.com/griga/yii-module-seo
+[submodule "protected/modules/content"]
+	path = protected/modules/content
+	url = https://github.com/griga/yii-module-content
+[submodule "protected/modules/user"]
+	path = protected/modules/user
+	url = https://github.com/griga/yii-module-user
+[submodule "protected/extensions/yg"]
+	path = protected/extensions/yg
+	url = https://github.com/griga/yii-ext-yg
+[submodule "protected/modules/shopping"]
+	path = protected/modules/shopping
+	url = https://github.com/griga/yii-module-shopping

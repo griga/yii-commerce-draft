@@ -4,7 +4,9 @@
 		"php": ">=5.4.0",
 		"yiisoft/yii": "1.1.15",
 		"masterexploder/phpthumb": "2.0",
-		"phly/mustache": "1.2.1"
+		"phly/mustache": "1.2.1",
+		"phpmailer/phpmailer": "dev-master",
+		"sleepwalker/hoauth":"dev-master"
 	},
 	"minimum-stability": "dev",
 	"repositories": [
@@ -15,6 +17,10 @@
 		{
 			"type": "vcs",
 			"url":  "https://github.com/phly/phly_mustache"
+		},
+		{
+			"type": "vcs",
+			"url":  "https://github.com/sleepwalker/hoauth"
 		}
 	]
 }

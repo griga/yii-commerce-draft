@@ -1,3 +1,5 @@
-git clone https://github.com/griga/yii-commerce-draft   %PROJECT_FOLDER%
-cd %PROJECT_FOLDER%
-git clone https://github.com/griga/yii-idea-files  .idea
+
+git remote add commerce https://github.com/griga/yii-commerce-draft
+git fetch
+git pull commerce master
+git push

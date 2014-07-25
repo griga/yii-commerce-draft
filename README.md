@@ -18,3 +18,8 @@ git submodule add https://github.com/griga/yii-module-sys protected/modules/sys<
 git submodule add https://github.com/griga/yii-module-translation protected/modules/translation<br>
 git submodule add https://github.com/griga/yii-module-upload protected/modules/upload<br>
 git submodule add https://github.com/griga/yii-module-user protected/modules/user<br>
+
+Composer dependencies
+-----------------------------------
+cd protected
+composer init --prefer-dist --profile -v

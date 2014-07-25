@@ -15,9 +15,11 @@ git submodule add https://github.com/griga/yii-module-catalog protected/modules/
 git submodule add https://github.com/griga/yii-module-content protected/modules/content<br>
 git submodule add https://github.com/griga/yii-module-seo protected/modules/seo<br>
 git submodule add https://github.com/griga/yii-module-sys protected/modules/sys<br>
+git submodule add https://github.com/griga/yii-module-shopping protected/modules/shopping<br>
 git submodule add https://github.com/griga/yii-module-translation protected/modules/translation<br>
 git submodule add https://github.com/griga/yii-module-upload protected/modules/upload<br>
 git submodule add https://github.com/griga/yii-module-user protected/modules/user<br>
+
 
 Composer dependencies
 -----------------------------------

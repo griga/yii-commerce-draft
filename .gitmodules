@@ -1,16 +1,20 @@
+[submodule "protected/components"]
+	path = protected/components
+	url = https://github.com/griga/yii-commerce-components
+
 [submodule "themes/common"]
 	path = themes/common
-	url = https://github.com/griga/yii-common-theme-files.git
+	url = https://github.com/griga/yii-common-theme-files
 [submodule "themes/commerce"]
 	path = themes/commerce
-	url = https://github.com/griga/yii-commerce-theme.git
+	url = https://github.com/griga/yii-commerce-theme
 
 [submodule "protected/modules/upload"]
 	path = protected/modules/upload
-	url = https://github.com/griga/yii-module-upload.git
+	url = https://github.com/griga/yii-module-upload
 [submodule "protected/modules/catalog"]
 	path = protected/modules/catalog
-	url = https://github.com/griga/yii-module-catalog.git
+	url = https://github.com/griga/yii-module-catalog
 [submodule "protected/modules/translation"]
 	path = protected/modules/translation
 	url = https://github.com/griga/yii-module-translation

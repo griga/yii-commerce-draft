@@ -21,5 +21,5 @@ git submodule add https://github.com/griga/yii-module-user protected/modules/use
 
 Composer dependencies
 -----------------------------------
-cd protected
-composer init --prefer-dist --profile -v
+cd protected<br>
+composer init --prefer-dist --profile -v<br>

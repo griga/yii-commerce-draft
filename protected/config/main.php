@@ -53,7 +53,7 @@ return CMap::mergeArray([
             'class'=>'MustacheService',
         ],
         'mailer' => [
-            'class' => 'application.extensions.mailer.EMailer',
+            'class' => 'EMailer',
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',

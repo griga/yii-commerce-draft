@@ -26,7 +26,7 @@ require_once $rootDir . '/protected/extensions/global.php';
 require_once $rootDir . '/protected/extensions/functions.php';
 
 spl_autoload_unregister(array('YiiBase', 'autoload'));
-$loader = require rootDir . '/protected/vendor/autoload.php';
+$loader = require $rootDir . '/protected/vendor/autoload.php';
 spl_autoload_register(array('YiiBase', 'autoload'), true, true);
 
 foreach ($loader->getClassMap() as $class => $patch)
